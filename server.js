@@ -37,7 +37,7 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', app: 'COMPOUND API', version: '1.0.0' });
 });
 
-// ── 404 handler ───────────────────────────────────────────────────────────
+// ── 404 handler ───────────────────────────────────────────────────────
 app.use((req, res) => {
   res.status(404).json({ success: false, message: 'Route not found' });
 });

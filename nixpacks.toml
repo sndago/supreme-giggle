@@ -1,7 +1,2 @@
-[build]
-# Use docker-compose for building
-cmd = "docker-compose build"
-
-[start]
-# Use docker-compose for running
-cmd = "docker-compose up"
+# Remove this file if using Dockerfile directly
+# Dockploy works best with explicit Dockerfiles

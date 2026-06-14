@@ -1,0 +1,139 @@
+# ============================================================================
+# DEPENDENCIES
+# ============================================================================
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+package-lock.json
+yarn.lock
+
+# ============================================================================
+# ENVIRONMENT VARIABLES
+# ============================================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.env.staging
+backend/.env
+backend/.env.local
+backend/.env.*.local
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ============================================================================
+# BUILD OUTPUTS
+# ============================================================================
+backend/dist/
+backend/build/
+frontend/dist/
+frontend/build/
+*.out
+
+# ============================================================================
+# LOGS
+# ============================================================================
+*.log
+*.log.*
+npm-debug.log
+npm-debug.log*
+yarn-debug.log
+yarn-debug.log*
+yarn-error.log
+yarn-error.log*
+lerna-debug.log
+pnpm-debug.log*
+lerna.json
+
+# ============================================================================
+# RUNTIME DIRECTORIES
+# ============================================================================
+.cache/
+.next/
+.nuxt/
+dist/
+build/
+out/
+
+# ============================================================================
+# TESTING
+# ============================================================================
+coverage/
+.nyc_output/
+test-results/
+*.lcov
+.coverage
+
+# ============================================================================
+# IDE & EDITOR
+# ============================================================================
+.vscode/
+.vscode-test/
+.idea/
+.idea_modules/
+*.sublime-workspace
+*.sublime-project
+*.vs/
+*.user
+*.VC.db
+.netcore/
+*.xcworkspace/
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.iml
+
+# ============================================================================
+# EDITOR TEMPORARY FILES
+# ============================================================================
+.swp
+.swo
+*~
+.tmp
+*.bak
+*.swn
+.*.swp
+.flymake_*
+
+# ============================================================================
+# OS SPECIFIC FILES
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.windows
+*.ini
+desktop.ini
+
+# ============================================================================
+# MISC
+# ============================================================================
+*.seed
+*.seed.js
+.grunt/
+.vuepress/dist
+.serverless/
+.tern-port
+.venv
+env.bak
+venv.bak
+dist-ssr
+*.egg-info/
+.env.bak
+.pem
+private/
+secrets/
+
+# ============================================================================
+# PROJECT SPECIFIC
+# ============================================================================
+scripts/
+docs/    

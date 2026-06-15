@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "seed": "node ../scripts/seed.js",
-    "seed:fresh": "node ../scripts/seed.js --fresh",
-    "seed:wipe": "node ../scripts/seed.js --wipe",
+    "dev": "nodemon",
+    "seed": "node scripts/seed.js",
+    "seed:fresh": "node scripts/seed.js --fresh",
+    "seed:wipe": "node scripts/seed.js --wipe",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

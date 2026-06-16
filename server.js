@@ -52,6 +52,7 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || 'localhost';
 app.listen(PORT, () => {
-  console.log(`🚀 COMPOUND API running on port ${PORT} [${process.env.NODE_ENV}]`);
+  console.log(`🚀 COMPOUND API running on ${HOST}:${PORT} [${process.env.NODE_ENV}]`);
 });
